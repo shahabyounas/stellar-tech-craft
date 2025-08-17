@@ -18,7 +18,7 @@ export const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="font-bold text-2xl gradient-text">
-            TechFlow
+            NSKEliteServices
           </div>
           
           {/* Desktop Navigation */}

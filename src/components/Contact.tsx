@@ -99,7 +99,7 @@ export const Contact = () => {
                     </div>
                     <div>
                       <div className="font-medium">Email</div>
-                      <div className="text-muted-foreground">hello@techflow.dev</div>
+                      <div className="text-muted-foreground">hello@nskeliteservices.com</div>
                     </div>
                   </div>
                   

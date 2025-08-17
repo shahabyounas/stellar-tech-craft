@@ -13,7 +13,7 @@ export const Footer = () => {
           {/* Logo & Description */}
           <div className="md:col-span-2">
             <div className="font-bold text-2xl gradient-text mb-4">
-              TechFlow
+              NSKEliteServices
             </div>
             <p className="text-muted-foreground max-w-md leading-relaxed mb-4">
               Transforming businesses with premium website development, design, 
@@ -80,7 +80,7 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-primary/20 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-muted-foreground text-sm mb-4 md:mb-0">
-            © 2024 TechFlow. All rights reserved.
+            © 2024 NSKEliteServices. All rights reserved.
           </div>
           
           <div className="flex space-x-6 text-sm">
