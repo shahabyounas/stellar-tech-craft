@@ -1,8 +1,13 @@
 {
-  "name": "vite_react_shadcn_ts",
+  "name": "nsk-elite-services",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "Premium website development, design, and digital solutions. Expert tech services for modern companies.",
+  "keywords": ["web development", "website design", "digital solutions", "tech services", "business websites", "e-commerce", "SEO optimization"],
+  "author": "NSKEliteServices",
+  "license": "UNLICENSED",
+  "homepage": "https://nskeliteservices.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -76,7 +81,6 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "gh-pages": "^6.3.0",
     "globals": "^15.15.0",
-    "lovable-tagger": "^1.1.9",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3",
