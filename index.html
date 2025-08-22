@@ -45,5 +45,23 @@
         }
       }(window.location))
     </script>
+    <script type="text/javascript">
+      // Fallback for module loading issues on GitHub Pages
+      if (typeof importScripts === 'undefined') {
+        // Check if the main script failed to load
+        setTimeout(function() {
+          var scripts = document.querySelectorAll('script[type="module"]');
+          scripts.forEach(function(script) {
+            if (script.src && !script.src.includes('data:')) {
+              // Try to reload with a different approach
+              var newScript = document.createElement('script');
+              newScript.type = 'module';
+              newScript.src = script.src;
+              document.head.appendChild(newScript);
+            }
+          });
+        }, 1000);
+      }
+    </script>
   </body>
 </html>
